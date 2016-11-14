@@ -1,0 +1,7 @@
+<h2>List of Categories</h2>
+
+<ul>
+<% Category.all.each do |category| %>
+  <li> <%= category.name %> </li>
+<% end %>
+</ul>
